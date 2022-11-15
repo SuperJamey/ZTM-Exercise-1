@@ -1,29 +1,35 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first website!</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>User Profile</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li>Login</li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <h2>Login</h2>
-    <p>Introduction</p>
-    <p><span>Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </section>
+	<form method="GET">
+		<b>Login Info:</b><br>
+		User Name:	<input type="text" name="user"><br>
+		Password:	<input type="text" name="pass"><br>
+		4-digit passcode: <input type="text" name="code" minlength="4" maxlength="4"><br><hr><br>
+
+		<b>Select Music Type:</b><br>
+		<input type="radio" name="musictype" value="rock"> Rock<br>
+		<input type="radio" name="musictype" value="rap"> Rap<br>
+		<input type="radio" name="musictype" value="country"> Country<br><br>
+
+		<b>Playlist:</b><br>
+		<input type="checkbox" name="70's"> 70's<br>
+		<input type="checkbox" name="80's"> 80's<br>
+		<input type="checkbox" name="90's"> 90's<br>
+		<input type="checkbox" name="current"> Current<br><hr><br>
+
+		Profile Type:
+			<select name="profiletype">
+				<option value="public" name="public">Public</option>
+				<option value="private" name="private">Private</option>
+			</select><br><br>
+		<input type="submit" value="Login"></a>
+		<input type="reset">
+	</form>
 </body>
 </html>
