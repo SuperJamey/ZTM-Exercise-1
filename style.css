@@ -1,0 +1,52 @@
+/*Selector {
+	Property: Value;
+}*/
+
+body {
+	background-image: url(clouds.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: rgba(18,45,83,.9);
+	text-align: left;
+	cursor: pointer;
+}
+
+p {
+	font-size: 15px;
+}
+
+span {
+	font-size: 5rem;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	justify-content: right;
+}
+
+.webtext {
+	border: 5px dashed blue;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background-color: rgba(0,0,255,.25);
+}
+
+#div2 {
+	background-color: rgba(255,0,0,.25);
+}
